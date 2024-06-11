@@ -71,4 +71,3 @@ Pokud máte nějaké otázky nebo potřebujete pomoc, můžete mě kontaktovat n
 
 Tento README soubor poskytuje užitečné informace o projektu, včetně návodu na spuštění lokálního serveru, struktury CSV souboru a kontaktních informací. Můžeš jej upravit podle potřeby a přidat další informace, které by byly pro uživatele užitečné.
 
-Toto je test
