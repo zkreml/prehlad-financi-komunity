@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Přehled Financí Komunity</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styly.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center">
+            <h1>Přehled Financí Komunity</h1>
+            <p>Tento projekt poskytuje transparentní přehled transakcí na našem <a href="https://transparentniucty.moneta.cz/264043266" target="_blank">transparentním účtu</a>.</p>
+        </header>
+        
+        <div class="account-balance text-center">
+            Aktuální stav účtu: <span id="account-balance">Načítání...</span>
+        </div>
+        
+        <table id="finance-table" class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Datum</th>
+                    <th>Popis</th>
+                    <th>Částka</th>
+                    <th>Měna</th>
+                    <th>Typ</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <footer class="text-center">
+            <p>&copy; 2024 <a href="https://git.arch-linux.cz/Archos/prehlad-financi-komunity" target="_blank">Archos</a></p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="skript.js"></script>
+</body>
+</html>

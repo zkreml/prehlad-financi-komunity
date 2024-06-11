@@ -1,0 +1,16 @@
+body {
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+}
+th, td {
+    text-align: left;
+}
+.account-balance {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
