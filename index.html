@@ -9,31 +9,33 @@
     <link href="styly.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="text-center">
+    <div class="d-flex flex-column min-vh-100">
+        <header class="text-center mb-3">
             <h1>Přehled Financí Komunity</h1>
             <p>Tento projekt poskytuje transparentní přehled transakcí na našem <a href="https://transparentniucty.moneta.cz/264043266" target="_blank">transparentním účtu</a>.</p>
         </header>
         
-        <div class="account-balance text-center">
+        <div class="account-balance text-center mb-3">
             Aktuální stav účtu: <span id="account-balance">Načítání...</span>
         </div>
         
-        <table id="finance-table" class="table table-striped">
-            <thead class="thead-dark">
-                <tr>
-                    <th>Datum</th>
-                    <th>Popis</th>
-                    <th>Částka</th>
-                    <th>Měna</th>
-                    <th>Typ</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        <div class="container flex-grow-1">
+            <table id="finance-table" class="table table-striped mb-3">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Datum</th>
+                        <th>Popis</th>
+                        <th>Částka</th>
+                        <th>Měna</th>
+                        <th>Typ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
         
-        <footer class="text-center">
+        <footer class="text-center mt-auto py-3">
             <p>&copy; 2024 <a href="https://git.arch-linux.cz/Archos/prehlad-financi-komunity" target="_blank">Archos</a></p>
         </footer>
     </div>

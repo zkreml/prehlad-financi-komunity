@@ -1,5 +1,9 @@
 body {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 h1 {
     margin-bottom: 20px;
@@ -13,4 +17,14 @@ th, td {
 .account-balance {
     font-size: 1.5em;
     margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-top: 1px solid #e7e7e7;
+    flex-shrink: 0;
+}
+.container {
+    flex: 1 0 auto;
 }
