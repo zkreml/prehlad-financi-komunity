@@ -18,19 +18,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     const tr = document.createElement('tr');
                     columns.forEach(column => {
                         const td = document.createElement('td');
-                        td.textContent = column;
+                        td.textContent = column.trim();
                         tr.appendChild(td);
                     });
                     tableBody.appendChild(tr);
 
+                    // Debug output
+                    console.log('Row:', row);
+                    console.log('Columns:', columns);
+
                     // Calculate account balance
-                    const amount = parseFloat(columns[2]);
-                    const currency = columns[3];
-                    if (currency === 'CZK') {
-                        accountBalance += amount;
-                    } else if (currency === 'EUR') {
-                        // For simplicity, assume 1 EUR = 25 CZK (you can adjust the conversion rate)
-                        accountBalance += amount * 25;
+                    const amount = parseFloat(columns[2].replace(/,/g, '').replace(/[^0-9.-]/g, '')); // Remove any invalid characters and ensure proper decimal handling
+                    const currency = columns[3].trim();
+                    
+                    // Debug output
+                    console.log('Amount:', amount);
+                    console.log('Currency:', currency);
+
+                    if (!isNaN(amount)) {
+                        if (currency === 'CZK') {
+                            accountBalance += amount;
+                        } else if (currency === 'EUR') {
+                            // For simplicity, assume 1 EUR = 25 CZK (you can adjust the conversion rate)
+                            accountBalance += amount * 25;
+                        }
+                    } else {
+                        console.error('Invalid amount:', columns[2]);
                     }
                 }
             });
