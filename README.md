@@ -62,7 +62,7 @@ Datum,Popis,Částka,Měna,Typ
 ```
 ## Přizpůsobení
 
-- Kurz měny: Pro jednoduchost je v kódu nastavený kurz 1 EUR = 25 CZK. Tento kurz můžete upravit podle potřeby v JavaScript kódu v souboru index.html.
+- Kurz měny: Pro jednoduchost je v kódu nastavený kurz 1 EUR = 25 CZK. Tento kurz můžete upravit podle potřeby v JavaScript kódu v souboru `skript.js`.
 
 ## Kontakt
 
