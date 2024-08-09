@@ -28,3 +28,6 @@ footer {
 .container {
     flex: 1 0 auto;
 }
+a[rel="me"] {
+    display: none;
+}
