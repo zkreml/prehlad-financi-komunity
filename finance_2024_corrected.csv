@@ -1,0 +1,16 @@
+# Vytvoření testovacího DataFrame s podobnou strukturou jako uživatelův CSV soubor
+data_corrected = {
+    'Datum': ['2024-06-04', '2024-06-05', '2024-06-10', '2024-06-17', '2024-06-18'],
+    'Popis': ['Stav účtu', 'Příspěvek @tritol128', 'Příspěvek @fabia_man', 'Příspěvek @Onqa6', 'Příspěvek D.Kolaja'],
+    'Částka': [9253.0, 512.0, 100.0, 100.0, 111.0],
+    'Měna': ['CZK', 'CZK', 'CZK', 'CZK', 'CZK'],
+    'Typ': ['Příjem', 'Příjem', 'Příjem', 'Příjem', 'Příjem']
+}
+
+df_corrected = pd.DataFrame(data_corrected)
+
+# Uložení do CSV souboru
+corrected_csv_path = "/mnt/data/finance_2024_corrected.csv"
+df_corrected.to_csv(corrected_csv_path, index=False)
+
+corrected_csv_path
