@@ -31,3 +31,22 @@ footer {
 a[rel="me"] {
     display: none;
 }
+.dropdown {
+    display: flex;
+    justify-content: flex-end; /* Posune tlačítko doprava */
+    margin-right: 20px; /* Přidá trochu prostoru od kraje */
+}
+header .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.dropdown {
+    margin-right: 20px;
+}
