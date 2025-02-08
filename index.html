@@ -17,8 +17,15 @@
             <p>Tento projekt poskytuje transparentní přehled transakcí na našem <a href="https://transparentniucty.moneta.cz/264043266" target="_blank">transparentním účtu</a>.</p>
             <p><strong>Přehled faktur:</strong> Přístup k vystaveným fakturám naleznete v našem <a href="https://oscloud.cz/s/PxkK2LXCzGeGfPS" target="_blank">Nextcloud úložišti</a>.</p>
         </header>
-        
-        <div class="account-balance text-center mb-3">
+        <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">
+        Archiv
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="finance_2024.txt" target="_blank">2024</a>
+    </div>
+   </div>
+   <div class="account-balance text-center mb-3">
             Aktuální stav účtu: <span id="account-balance">Načítání...</span>
         </div>
         

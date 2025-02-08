@@ -54,3 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('account-balance').textContent = 'Chyba při načítání dat';
         });
 });
+$(document).ready(function() {
+    $('#dropdownMenuButton').on('click', function() {
+        $('.dropdown-menu').toggle(); // Ruční zobrazení dropdown menu
+    });
+});
+
