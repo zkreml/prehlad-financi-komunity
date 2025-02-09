@@ -1,63 +1,37 @@
-                                                                                                                                                  ,Popis,Částka,Měna,Typ
-2020-06-04,Stav účtu ,9253,CZK,Příjem
-2024-06-05,Příspěvek @tritol128,512,CZK,Příjem
-2024-06-10,Příspěvek @fabia_man,100,CZK,Příjem
-2024-06-17,Příspěvek @Onqa6,100,CZK,Příjem
-2024-06-18,Příspěvek D.Kolaja,111,CZK,Příjem
-2024-06-18,Příspěvek Luboš Blažek,1000,CZK,Příjem
-2024-06-18,Platba Contabo,-324.90,CZK,Výdaj
-2024-06-24,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
-2024-06-25,Příspěvek M.Kroul,150,CZK,Příjem
-2024-06-27,Příspěvek Petr K.,88.88,CZK,Příjem
-2024-06-27,S3 uložiště Idrive2,-382,CZK,Výdaj
-2024-07-01,Contabo platba server VPS,-1062.97,CZK,Výdaj
-2024-07-01,Příspěvek PetR,500,CZK,Příjem
-2024-07-01,Uživatel jiné instance ,44.99,CZK,Příjem
-2024-07-05,Příspěvek @tritol128,512,CZK,Příjem
-2024-07-10,Příspěvek @smoon,100,CZK,Příjem
-2024-07-10,Příspěvek @fabia_man,100,CZK,Příjem
-2024-07-22,Příspěvek D.Kolaja,111,CZK,Příjem
-2024-07-22,Příspěvek @Onqa6,100,CZK,Příjem
-2024-07-22,Contabo platba server VPS,-321.98,CZK,Výdaj
-2024-07-22,Příspěvek Luboš Blažek,1000,CZK,Příjem
-2024-07-22,Příspěvek Infoek,474,CZK,Příjem
-2024-07-29,Příspěvek M.Kroul,150,CZK,Příjem
-2024-07-29,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
-2024-07-29,S3 uložiště Idrive2,-361.32,CZK,Výdaj
-2024-08-09,Příspěvek @fabia_man,200,CZK,Příjem
-2024-08-09,Příspěvek @tritol128,512,CZK,Příjem
-2024-08-09,Příspěvek Infoek,500,CZK,Příjem
-2024-08-09,Příspěvek Micaai,50,CZK,Příjem
-2024-08-09,Příspěvek @Razemix@mamutovo,100,CZK,Příjem
-2024-08-09,Příspěvek @smoon,100,CZK,Příjem
-2024-08-09,Příspěvek M.Kroul,150,CZK,Příjem
-2024-08-17,Příspěvek @Onqa6,100,CZK,Příjem
-2024-08-19,Příspěvek D.Kolaja,111,CZK,Příjem
-2024-08-19,Příspěvek Schmaker,200,CZK,Příjem
-2024-08-19,Příspěvek Luboš Blažek,1000,CZK,Příjem
-2024-08-19,Contabo platba server VPS,-428.15,CZK,Výdaj
-2024-08-19,Platba server Hetzner ,-2328.69,CZK,Výdaj
-2024-08-24,Příspěvek M.Kroul,150,CZK,Příjem
-2024-08-29,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
-2024-08-29,S3 uložiště Idrive2,-230.76,CZK,Výdaj
-2024-05-09,Příspěvek @tritol128,512,CZK,Příjem
-2024-05-09,Příspěvek @fabia_man,200,CZK,Příjem
-2024-05-09,Příspěvek Micaai,50,CZK,Příjem
-2024-10-09,Příspěvek Infoek,400,CZK,Příjem
-2024-09-19,Příspěvek D.Kolaja,111,CZK,Příjem
-2024-09-19,Platba server Hetzner ,-2348.98,CZK,Výdaj
-2024-09-19,Contabo platba server VPS,-440.50,CZK,Výdaj
-2024-09-19,Příspěvek Luboš Blažek,1000,CZK,Příjem
-2024-09-19,Příspěvek Schmaker,200,CZK,Příjem
-2024-09-19,Příspěvek @Onqa6,100,CZK,Příjem
-2024-09-20,Archos platba ,-107,CZK,Výdaj
-2024-09-25,Archos dorovnání ,110,CZK,Příjem
-2024-09-25,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
-2024-09-25,Příspěvek M.Kroul,150,CZK,Příjem
-2024-09-26,S3 uložiště Idrive2,-85.99,CZK,Výdaj
-2024-09-29,Platba  doména Mamutovo,-297,CZK,Výdaj
-2024-10-06,Příspěvek Infoek,1000,CZK,Příjem
-2024-10-06,Příspěvek @tritol128,512,CZK,Příjem
-2024-10-06,Příspěvek Micaai,50,CZK,Příjem
-2024-10-10,Příspěvek @fabia_man,200,CZK,Příjem
-2024-10-10,Příspěvek @Razemix@mamutovo,100,CZK,Příjem
+"echo ""Datum",Popis,Částka,Měna,"Typ"" > finance.csv"
+2025-01-01,Stav účtu 2024,18102.44,CZK,Příjem
+2025-01-04,Platba server Hetzner ,-3649,CZK,Výdaj
+2025-01-04,Příspěvek M.Kroul,150,CZK,Příjem
+2025-01-04,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
+,,,,
+2025-01-04,Příspěvek Micaai Mxchat,50,CZK,Příjem
+2025-01-04,Příspěvek @tritol128,512,CZK,Příjem
+2025-01-04,Příspěvek Marie Glöckner,500,CZK,Příjem
+2025-01-04,Příspěvek Peter Kotrčka,99,CZK,Příjem
+2025-01-04,Příspěvek Daniel Šnor,150,CZK,Příjem
+2025-01-04,S3 uložiště Idrive2,-262.70,CZK,Výdaj
+2025-01-17,Příspěvek @fabia_man,200,CZK,Příjem
+2025-01-17,Příspěvek František Řezáč,150,CZK,Příjem
+2025-01-17,Příspěvek Plátce,200,CZK,Příjem
+2025-01-17,Příspěvek Infoek,540,CZK,Příjem
+2025-01-17,Příspěvěk pan Wu,100,CZK,Příjem
+2025-01-17,Příspěvek Luboš Blažek,1000,CZK,Příjem
+2025-01-17,Příspěvek @Onqa6,100,CZK,Příjem
+2025-01-17,Příspěvek D.Kolaja,111,CZK,Příjem
+2025-01-17,Platba server Hetzner ,-3557,CZK,Výdaj
+2025-01-17,Příspěvek Jakub Cabal,500,CZK,Příjem
+2025-02-01,Příspěvek Schmaker,200,CZK,Příjem
+2025-02-01,Příspěvek Miroslav V,200,CZK,Příjem
+2025-02-01,Platba Contabo VPS,-443,CZK,Výdaj
+2025-02-01,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
+2025-02-01,S3 uložiště Idrive2,-262.31,CZK,Výdaj
+2025-02-04,Příspěvek ZBNW,150,CZK,Příjem
+2025-02-04,Příspěvek Bratrankove na majku,500,CZK,Příjem
+2025-02-04,Příspěvek @tritol128,512,CZK,Příjem
+2025-02-07,Příspěvek Micaai Mxchat,50,CZK,Příjem
+2025-02-07,Příspěvek @Razemix@mamutovo,100,CZK,Příjem
+2025-02-07,Příspěvek František Řezáč,150,CZK,Příjem
+2025-02-07,Příspěvek Plátce,200,CZK,Příjem
+2025-02-07,Příspěvek @fabia_man,200,CZK,Příjem
+2025-02-07,Platba domény archoslinux,-297,CZK,Výdaj
+2025-02-09,Příspěvek Infoek,550,CZK,Příjem

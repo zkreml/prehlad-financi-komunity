@@ -3,14 +3,27 @@
 
 Tento projekt slouží k zobrazení transparentního přehledu financí komunity. Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru, a aktuální stav účtu.
 
+# Přehled Financí Komunity
+
+Tento projekt slouží k zobrazení transparentního přehledu financí komunity. Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru, a aktuální stav účtu.
+
 ## Struktura projektu
 
 - `index.html` - Hlavní HTML soubor obsahující strukturu stránky.
 - `styly.css` - CSS soubor obsahující styly pro stránku.
 - `skript.js` - JavaScript soubor obsahující logiku pro načítání a zpracování dat.
-- `finance.csv` - CSV soubor obsahující data o transakcích.
+- `finance.csv` - CSV soubor obsahující data o aktuálním roce.
+- `finance_2024.csv` - Archivní CSV soubor s daty za rok 2024.
+- `2024.html` - Stránka pro zobrazení archivu financí za rok 2024.
 - `README.md` - Tento soubor s informacemi o projektu.
 
+## 📂 Archiv finančních záznamů
+
+Kromě aktuálních dat projekt také obsahuje **archiv starších finančních záznamů**, které lze zobrazit přes sekci **Archiv** na hlavní stránce.
+
+### 📜 Dostupné roky:
+🔹 **[Archiv 2024](https://git.arch-linux.cz/Archos/prehlad-financi-komunity/releases/download/v2.0/finance_2024.csv)**  
+🔹 **[Archivní stránka 2024](http://localhost:8000/2024.html) - Zobrazení v tabulce**  
 
 ## Jak používat
 

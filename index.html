@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <title>Přehled Financí Komunity</title>
@@ -13,11 +13,23 @@
 <body>
     <div class="d-flex flex-column min-vh-100">
         <header class="text-center mb-3">
-            <h1>Přehled Financí Komunity</h1>
-            <p>Tento projekt poskytuje transparentní přehled transakcí na našem <a href="https://transparentniucty.moneta.cz/264043266" target="_blank">transparentním účtu</a>.</p>
-            <p><strong>Přehled faktur:</strong> Přístup k vystaveným fakturám naleznete v našem <a href="https://oscloud.cz/s/PxkK2LXCzGeGfPS" target="_blank">Nextcloud úložišti</a>.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="flex-grow-1 text-center">Přehled Financí Komunity</h1>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">
+                        Archiv
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="2024.html" target="_blank">2024</a>
+                    </div>
+                </div>
+            </div>
+            <p>Tento projekt poskytuje transparentní přehled transakcí na našem 
+                <a href="https://transparentniucty.moneta.cz/264043266" target="_blank">transparentním účtu</a>.</p>
+            <p><strong>Přehled faktur:</strong> Přístup k vystaveným fakturám naleznete v našem 
+                <a href="https://oscloud.cz/s/PxkK2LXCzGeGfPS" target="_blank">Nextcloud úložišti</a>.</p>
         </header>
-        
+
         <div class="account-balance text-center mb-3">
             Aktuální stav účtu: <span id="account-balance">Načítání...</span>
         </div>

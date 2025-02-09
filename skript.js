@@ -57,3 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
         loadFinanceData('finance_2024_corrected.csv');  // Stejná složka pro archivovaný soubor
     });
 });
+$(document).ready(function() {
+    $('#dropdownMenuButton').on('click', function() {
+        $('.dropdown-menu').toggle(); // Ruční zobrazení dropdown menu
+    });
+});
+
