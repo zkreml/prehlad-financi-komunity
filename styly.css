@@ -132,3 +132,22 @@ header h1 {
     border-bottom: 3px solid #218838;
     padding-bottom: 8px;
 }
+/* Kontejner pro tlačítko exportu */
+.export-button-container {
+    text-align: center; /* Zarovná tlačítko na střed */
+    margin-top: 20px; /* Přidá trochu prostoru nad tlačítkem */
+}
+
+/* Styl tlačítka */
+#export-pdf {
+    padding: 10px 20px; /* Lepší padding */
+    font-size: 16px; /* Větší písmo pro lepší čitelnost */
+    border-radius: 5px; /* Zaoblené rohy */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Efekt při najetí myší */
+#export-pdf:hover {
+    background-color: #0056b3; /* Lehce tmavší modrá při hover */
+}
