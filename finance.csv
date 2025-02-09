@@ -1,3 +1,4 @@
+"echo ""Datum",Popis,Částka,Měna,"Typ"" > finance.csv"
 2025-01-01,Stav účtu 2024,18102.44,CZK,Příjem
 2025-01-04,Platba server Hetzner ,-3649,CZK,Výdaj
 2025-01-04,Příspěvek M.Kroul,150,CZK,Příjem
