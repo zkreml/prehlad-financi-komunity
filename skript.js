@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Funkce pro načítání financí
+    // Funkce pro načítání CSV souboru
     function loadFinanceData(csvFile) {
         console.log(`Načítání souboru: ${csvFile}`);  // Debug výpis
         fetch(csvFile)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error(`Soubor ${csvFile} nebyl nalezen.`);
                 }
                 return response.text();
             })
@@ -37,7 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
                                 accountBalance += amount;
                             } else if (currency === 'EUR') {
                                 accountBalance += amount * 25;  // Pro jednoduchost: 1 EUR = 25 CZK
+                            } else {
+                                console.warn(`Nepodporovaná měna: ${currency}`);  // Pro chyby v měně
                             }
+                        } else {
+                            console.warn('Neplatná částka:', columns[2]);
                         }
                     }
                 });
@@ -45,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Chyba při načítání CSV souboru:', error);
-                document.getElementById('account-balance').textContent = 'Chyba při načítání dat';
+                document.getElementById('account-balance').textContent = `Chyba: ${error.message}`;
             });
     }
 
@@ -57,9 +61,10 @@ document.addEventListener('DOMContentLoaded', function() {
         loadFinanceData('finance_2024_corrected.csv');  // Stejná složka pro archivovaný soubor
     });
 });
+
+// Dropdown menu toggle (Bootstrap)
 $(document).ready(function() {
     $('#dropdownMenuButton').on('click', function() {
         $('.dropdown-menu').toggle(); // Ruční zobrazení dropdown menu
     });
 });
-

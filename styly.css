@@ -50,3 +50,66 @@ header h1 {
 .dropdown {
     margin-right: 20px;
 }
+/* Hlavní tabulka zůstává stejná, NEUPRAVUJEME */
+#finance-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Hlavička tabulky */
+#finance-table th {
+    background-color: #343a40;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    text-align: center;
+}
+
+/* Řádky tabulky */
+#finance-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Zvýraznění jen pro archivní tabulku */
+.archive-table tbody tr:nth-child(even) {
+    background-color: #e6e6e6; /* Lehce tmavší šedá */
+}
+
+.archive-table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Lehce světlejší šedá */
+}
+
+/* Barevné odlišení příjmů a výdajů pro archivní tabulku */
+.archive-table td.pozitivni {
+    color: #218838; /* Sytější zelená */
+    font-weight: bold;
+}
+
+.archive-table td.negativni {
+    color: #c82333; /* Sytější červená */
+    font-weight: bold;
+}
+
+/* Responzivní design */
+@media (max-width: 768px) {
+    #finance-table th, #finance-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+.archive-title {
+    text-align: center; /* Zarovnání na střed */
+    font-size: 26px; /* Zvýšení velikosti písma */
+    font-weight: bold; /* Tučné písmo */
+    color: #343a40; /* Tmavší barva pro lepší kontrast */
+    text-transform: uppercase; /* Velká písmena */
+    margin-bottom: 20px; /* Větší mezera pod nadpisem */
+    border-bottom: 3px solid #218838; /* Zelená linka pod nadpisem */
+    padding-bottom: 8px; /* Oddělení nadpisu linkou */
+}
