@@ -90,4 +90,6 @@ Tento kurz můžete upravit podle potřeby v JavaScript kódu v souboru `skript.
 
 Pokud máte nějaké otázky nebo potřebujete pomoc, můžete mě kontaktovat na [archos@arch-linux.cz](mailto:archos@arch-linux.cz).
 
-Tento README soubor poskytuje užitečné informace o projektu, včetně návodu na spuštění lokálního serveru, struktury CSV souboru a kontaktních informací. Můžeš jej upravit podle potřeby a přidat další informace, které by byly pro uživatele užitečné.
+Tento README soubor poskytuje užitečné informace o projektu, včetně návodu na spuštění lokálního serveru,
+struktury CSV souboru a kontaktních informací.
+Můžeš jej upravit podle potřeby a přidat další informace, které by byly pro uživatele užitečné.
