@@ -2,7 +2,8 @@
 # Přehled Financí Komunity
 
 Tento projekt slouží k zobrazení transparentního přehledu financí komunity.
-Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru, a aktuální stav účtu.
+Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru
+a aktuální stav účtu.
 
 # Přehled Financí Komunity
 
