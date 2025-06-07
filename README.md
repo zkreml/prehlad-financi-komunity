@@ -66,7 +66,8 @@ http://localhost:8000
 
 ### 4. Aktualizace dat
 
-Pro aktualizaci dat stačí upravit nebo přidat nové záznamy do souboru finance.csv a stránka se automaticky aktualizuje při příštím načtení.
+Pro aktualizaci dat stačí upravit nebo přidat nové záznamy do souboru finance.csv
+a stránka se automaticky aktualizuje při příštím načtení.
 
 ## Struktura CSV souboru
 
