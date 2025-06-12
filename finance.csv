@@ -1,5 +1,5 @@
 "echo ""Datum",Popis,Částka,Měna,"Typ"" > finance.csv"
-2025-01-01,Stav účtu 2024,18816.44,CZK,Příjem
+2025-01-01,Stav účtu 2024,18624.69,CZK,Příjem
 2025-01-04,Platba server Hetzner ,-3649,CZK,Výdaj
 2025-01-04,Příspěvek M.Kroul,150,CZK,Příjem
 2025-01-04,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
@@ -124,5 +124,7 @@
 2025-06-06,Příspěvek Plátce,200,CZK,Příjem
 2025-06-06,Příspěvek fabia_man,200,CZK,Příjem
 2025-06-06,Příspěvek Infoek,550,CZK,Příjem
-2025-06-06,Příspěvek Tritol128,512,CZK Příjem
-
+2025-06-06,Příspěvek Tritol128,512,CZK,Příjem
+2025-12-06,Příspevek Razemix,100,CZK,Příjem
+2025-12-06,Příspěvek Vldysek,1000,CZK,Příjem
+2025-12-06,Platba Deepl překladač,-320.45,CZK,Výdaj
