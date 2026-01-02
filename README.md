@@ -1,95 +1,140 @@
+# Přehled financí komunity
 
-# Přehled Financí Komunity
+Tento projekt slouží k transparentnímu zobrazení příjmů a výdajů komunity.
+Data jsou uložena v CSV souborech a zobrazována na jednoduché webové stránce.
 
-Tento projekt slouží k zobrazení transparentního přehledu financí komunity.
-Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru
-a aktuální stav účtu.
+Cílem je:
 
-# Přehled Financí Komunity
+- mít přehled o financích
+- mít data veřejně a čitelně
+- mít jednoduchý systém bez databáze
 
-Tento projekt slouží k zobrazení transparentního přehledu financí komunity. Stránka zobrazuje seznam příjmů a výdajů, které jsou uloženy v CSV souboru, a aktuální stav účtu.
+---
 
 ## Struktura projektu
 
-- `index.html` - Hlavní HTML soubor obsahující strukturu stránky.
-- `styly.css` - CSS soubor obsahující styly pro stránku.
-- `skript.js` - JavaScript soubor obsahující logiku pro načítání a zpracování dat.
-- `finance.csv` - CSV soubor obsahující data o aktuálním roce.
-- `finance_2024.csv` - Archivní CSV soubor s daty za rok 2024.
-- `2024.html` - Stránka pro zobrazení archivu financí za rok 2024.
-- `README.md` - Tento soubor s informacemi o projektu.
+```
+.
+├── index.html              # Hlavní stránka (aktuální rok)
+├── finance.csv             # AKTUÁLNÍ ROK – sem se zapisují data
+├── archives/
+│   ├── finance_2024.csv    # Archiv roku 2024
+│   └── finance_2025.csv    # Archiv roku 2025
+├── 2024.html               # Zobrazení archivu 2024
+├── 2025.html               # Zobrazení archivu 2025
+├── skript.js               # Načítání a zpracování CSV
+├── styly.css               # Styly
+└── README.md
+```
 
-## 📂 Archiv finančních záznamů
+---
 
-Kromě aktuálních dat projekt také obsahuje **archiv starších finančních záznamů**, které lze zobrazit přes sekci **Archiv** na hlavní stránce.
+## Základní principy
 
-### 📜 Dostupné roky
+- **`finance.csv` = vždy aktuální rok**
+- **archivy jsou pouze ke čtení**
+- minulý rok se **nikdy nepřepisuje**
+- nový rok začíná **převodem z minulého roku**
 
-🔹 **[Archiv 2024](https://git.arch-linux.cz/Archos/prehlad-financi-komunity/releases/download/v2.0/finance_2024.csv)**  
-🔹 **[Archivní stránka 2024](http://localhost:8000/2024.html) - Zobrazení v tabulce**  
+---
 
-## Jak používat
+## Formát CSV (POVINNÉ)
 
-### 1. Klonování repozitáře
+Soubor `finance.csv` i archivní soubory musí mít vždy stejný formát:
 
-Nejprve naklonujte tento repozitář na svůj počítač:
+```csv
+Datum,Popis,Částka,Měna,Typ
+```
+
+### Pravidla
+
+- přesně **5 sloupců**
+- `Částka`:
+  - kladná = příjem
+  - záporná = výdaj
+- `Typ` je vždy `Příjem` nebo `Výdaj`
+- žádné uvozovky, žádné mezery navíc
+
+### Příklad
+
+```csv
+2026-01-01,Převod z roku 2025,25975.81,CZK,Příjem
+2026-02-01,Příspěvek člena,200,CZK,Příjem
+2026-02-10,Platba server Hetzner,-3500,CZK,Výdaj
+```
+
+---
+
+## Jak začít nový rok
+
+1. Zkontroluj stav transparentního účtu k 31. 12.
+2. Vypočti převod:
+
+```
+převod = stav účtu − (součet již zapsaných příjmů/výdajů nového roku)
+```
+
+3. První řádek v novém `finance.csv` je vždy:
+
+```csv
+YYYY-01-01,Převod z roku YYYY-1,ČÁSTKA,CZK,Příjem
+```
+
+---
+
+## Archivace roku
+
+Na konci roku:
+
+```bash
+mkdir -p archives
+mv finance.csv archives/finance_2026.csv
+echo "Datum,Popis,Částka,Měna,Typ" > finance.csv
+```
+
+---
+
+## Kontrola správnosti dat
+
+### Kontrola počtu sloupců
+
+```bash
+awk -F',' 'NF!=5 {print NR ":" $0}' finance.csv
+```
+
+### Kontrola součtu
+
+```bash
+awk -F',' 'NR>1 {s+=$3} END {printf "%.2f\n", s}' finance.csv
+```
+
+Součet musí odpovídat aktuálnímu stavu účtu.
+
+---
+
+## Lokální spuštění
 
 ```bash
 git clone https://git.arch-linux.cz/Archos/prehlad-financi-komunity.git
-```
-
-### 2. Spuštění lokálního serveru
-
-Pro zobrazení stránky je potřeba spustit jednoduchý HTTP server. Můžete použít Python:
-
-- Použití Python 3
-
-```bash
 cd prehlad-financi-komunity
 python -m http.server
 ```
 
-- Použití Python 2
+Otevři v prohlížeči:
 
-```bash
-cd prehlad-financi-komunity
-python -m SimpleHTTPServer
 ```
-
-### 3. Otevření prohlížeče
-
-Otevřete webový prohlížeč a přejděte na adresu:
-
-```bash
 http://localhost:8000
 ```
 
-### 4. Aktualizace dat
+---
 
-Pro aktualizaci dat stačí upravit nebo přidat nové záznamy do souboru finance.csv
-a stránka se automaticky aktualizuje při příštím načtení.
+## Archivní data
 
-## Struktura CSV souboru
+- 📂 Archivní CSV jsou ve složce `archives/`
+- 📄 Každý rok má vlastní HTML stránku (`2024.html`, `2025.html`, …)
 
-Soubor finance.csv by měl mít následující strukturu:
-
-```bash
-Datum,Popis,Částka,Měna,Typ
-2024-06-01,Příspěvek Archos,100,EUR,Příjem
-2024-06-05,Údržba serveru,-50,EUR,Výdaj
-2024-06-10,Členský poplatek,1200,CZK,Příjem
-2024-06-15,Obnovení domény,-300,CZK,Výdaj
-```
-
-## Přizpůsobení
-
-- Kurz měny: Pro jednoduchost je v kódu nastavený kurz 1 EUR = 25 CZK.
-Tento kurz můžete upravit podle potřeby v JavaScript kódu v souboru `skript.js`.
+---
 
 ## Kontakt
 
-Pokud máte nějaké otázky nebo potřebujete pomoc, můžete mě kontaktovat na [archos@arch-linux.cz](mailto:archos@arch-linux.cz).
-
-Tento README soubor poskytuje užitečné informace o projektu, včetně návodu na spuštění lokálního serveru,
-struktury CSV souboru a kontaktních informací.
-Můžeš jej upravit podle potřeby a přidat další informace, které by byly pro uživatele užitečné.
+📧 <archos@arch-linux.cz>
