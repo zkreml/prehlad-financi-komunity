@@ -1,4 +1,4 @@
-"echo ""Datum",Popis,Částka,Měna,"Typ"" > finance.csv"
+Datum,Popis,Částka,Měna,Typ
 2025-01-01,Stav účtu 2024,18624.69,CZK,Příjem
 2025-01-04,Platba server Hetzner ,-3649,CZK,Výdaj
 2025-01-04,Příspěvek M.Kroul,150,CZK,Příjem
@@ -46,7 +46,7 @@
 2025-09-03,Příspěvek M.Kroul,150,CZK,Příjem
 2025-09-03,Příspěvek Daniel Šnor,150,CZK,Příjem
 2025-09-03,Příspěvek Micaai Mxchat,50,CZK,Příjem
-2025-09-03,Příspěvek František Řezáč.150,CZK,Příjem
+2025-09-03,Příspěvek František Řezáč,150,CZK,Příjem
 2025-09-03,Příspěvek Plátce,200,CZK,Příjem
 2025-09-03,Příspěvek Razemix,100,CZK,Příjem
 2025-09-03,Příspěvěk Tritol,512,CZK,Příjem
@@ -113,7 +113,7 @@
 2025-19-05,Platba Hetzner server Oscloud,-3523,CZK,Výdaj
 2025-23-05,Příspěvek Webhosting bohdandlouhy.cz,1500,CZK,Příjem
 2025-25-05,Platba Contabo Server Mxchat,-615.34,CZK,Výdaj
-2025-25-05,Příspěvek Martin Kroul,150,CZK.Příjem
+2025-25-05,Příspěvek Martin Kroul,150,CZK,Příjem
 2025-25-05,Příspěvek Pavlína Pražáková,200,CZK,Příjem
 2025-06-06,Příspěvek Pixelfed/dnesnaukrajine,300,CZK,Příjem
 20205-06-06,Příspěvek Ondřej Peska,240,CZK,Příjem
@@ -265,7 +265,7 @@
 2025-24-11,Příspěvek pixelfed dnesnaukrajine,500,CZK,Příjem
 2025-24-11,Podpora Oscloud Sešívaný,50,CZK,Příjem
 2025-29-11,Platba server Mamutovo,-650,CZK,Výdaj
-2025-29-11,Příspěvěk @martin@libera.site,50,Příjem
+2025-29-11,Příspěvěk @martin@libera.site,50,CZK,Příjem
 2025-05-12,Příspěvek @tritol128,512,CZK,Příjem
 2025-05-12,Příspěvek @fabia_man,200,CZK,Příjem
 2025-05-12,Příspěvek Daniel Šnor,150,CZK,Příjem
@@ -282,7 +282,7 @@
 2025-15-12,Příspěvek Oscloud Jan Pleva,250,CZK,Příjem
 2025-15-12,Příspěvek Oscloud Patrik H,200,CZK,Příjem
 2025-15-12,Příspěvek Oscloud Luboš Blažek,1000,CZK,Příjem
-2025-15-12,Příspěvek vyvolano.cz,200,CZK
+2025-15-12,Příspěvek vyvolano.cz,200,CZK,Příjem
 2025-15-12,Příspěvek Oscloud Kubikovo,200,CZK,Příjem
 2025-20-12,Platba plán roční plán Oscloud,-5301,CZK,Výdaj
 2025-20-12,Příspěvek archos,3367,CZK,Příjem
@@ -295,5 +295,5 @@
 2025-28-12,Příspěvek pixelfed dnesnaukrajine,500,CZK,Příjem
 2025-28-12,Podpora Oscloud Sešivaný,50,CZK,Příjem
 2025-28-12,Příspěvek Martin libera,50,CZK,Příjem
-2025-28-12,Přispěvek Oscloud Ondřej Sýkory,300,Příjem
+2025-28-12,Přispěvek Oscloud Ondřej Sýkory,300,CZK,Příjem
 2025-28-12,Příspěvek @atlas144,1200,CZK,Příjem
