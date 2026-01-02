@@ -3,19 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Přehled Financí 2024</title>
+  <title>Přehled Financí 2025</title>
   <link rel="stylesheet" href="styly.css">
-
 </head>
 
 <body>
-  <h2 class="archive-title">Přehled Financí za rok 2024</h2>
+  <h2 class="archive-title">Přehled Financí za rok 2025</h2>
+
   <div class="export-button-container">
-    <a href="archives/finance_2024.csv" download="finance_2024.csv" class="btn btn-primary">📂 Stáhnout CSV</a>
-  </div>
+    <a href="archives/finance_2025.csv" download="finance_2025.csv" class="btn btn-primary">📂 Stáhnout CSV</a>
   </div>
 
-  <!-- Obalíme tabulku do kontejneru pro centrování -->
   <div class="archive-table-container">
     <table id="finance-table" class="table table-striped mb-3 archive-table">
       <thead>
@@ -27,13 +25,12 @@
           <th>Typ</th>
         </tr>
       </thead>
-      <tbody>
-      </tbody>
+      <tbody></tbody>
     </table>
   </div>
 
   <script>
-    fetch('archives/finance_2024.csv')
+    fetch('archives/finance_2025.csv')
       .then(response => response.text())
       .then(data => {
         let rows = data.split("\n").slice(1);
