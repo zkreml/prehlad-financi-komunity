@@ -10,7 +10,19 @@ Datum,Popis,Částka,Měna,Typ
 2026-12-01,Příspěvek Infoek,700,CZK,příjem
 2026-12-01,Příspěvek @tritol128,512,CZK,příjem
 2026-12-01,Příspěvek @rholas,75,CZK,příjem
-2026-12-02,Příspěvek Koubikovo,200,CZK,příjem
-2026-12-02,Platba Deepl překladač,-340,CZK,výdaj
+2026-12-01,Příspěvek Koubikovo,200,CZK,příjem
+2026-12-01,Platba Deepl překladač,-340,CZK,výdaj
+2026-20-11,Příspěvek Sazy,100,CZK,příjem 
+2026-20-01,Příspěvek Pan Wu,100,CZK,příjem
+2026-20-01,Příspěvek Miroslav Vrhel,150,CZK,příjem
+2026-20-01,Příspěvek Jam Pleva,250,CZK, příjem 
+2026-20-01,Příspěvek vyvoláno.cz,200,CZK,příjem
+2026-20-01,Platba Hetzner server OScloud,-3860,CZK,výdaj
+2026-20-01,Příspěvek Luboš Blažek,1000,CZK,příjem
+2026-20-06,Příspěvek @onga,100,CZK,příjem
+2026-20-01,Příspěvek D.Kolaja,111,CZK,příjem
+2026-20-01,Příspěvek Schmaker,200,CZK,příjem
+2026-20-01,Platba server Contabo Mxchat,-618,CZK,výdaj
+
 
 
