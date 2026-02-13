@@ -37,7 +37,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-07-02,Příspěvek František Řezáč,300,CZK,příjem
 2026-07-02,Příspěvek @fabia_man@mamutovo.cz,200,CZK,příjem 
 2026-07-02,Příspěvek GuloGulo,333,CZK,příjem
-2026-13-02,Platba Deepl překladač,350,CZK,výdaj
-
+2026-13-02,Platba Deepl překladač,-350,CZK,výdaj
+2026-13-02,Platba doména Archoslinux,-315,CZK,výdaj
 
 
