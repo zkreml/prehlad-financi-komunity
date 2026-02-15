@@ -48,5 +48,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-13-02,Příspěvek Kubíkovo,200,CZK,příjem
 2026-13-02,Příspěvek Sazy,100,CZK,příjem
 2026-13-02,Příspěvek rholas,75,CZK,příjem
+2026-14-02,Platba Hetzner,-3400,CZK,výdaj
+
 
 
