@@ -49,6 +49,13 @@ Datum,Popis,Částka,Měna,Typ
 2026-13-02,Příspěvek Sazy,100,CZK,příjem
 2026-13-02,Příspěvek rholas,75,CZK,příjem
 2026-14-02,Platba Hetzner,-3400,CZK,výdaj
+2026-22-02,Příspěvek @onga,100,CZK,příjem
+2026-22-02,Příspěvek Vyvoláno.cz,200,CZK,příjem
+2026-22-02,Příspěvek D.Kolaja,111,CZK,příjem
+2026-22-02,Příspěvek Schmaker,200,CZK,příjem
+2026-22-02,Příspěvek Lubos Blazek,1000,CZK,příjem
+2026-22-02,Platba server Mamutovo,-800,CZK,výdaj
+2026-22-02,Platba server Mxchat,-618.67,CZK,výdaj
 
 
 
