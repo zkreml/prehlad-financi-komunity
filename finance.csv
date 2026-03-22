@@ -76,6 +76,15 @@ Datum,Popis,Částka,Měna,Typ
 2026-13-03,Příspěvek Pan Wu,100,CZK,příjem
 2026-13-03,Příspěvek Sazy,100,CZK,příjem
 2026-13-03,Platba Deepl,-320,CZK,výdaj
+2026-22-03,Platba server Osclud Hetzner,-4068,CZK,výdaj
+2026-22-03,Příspěvek Vyvoláno.cz,200,CZK,příjem
+2026-22-03,Příspěvek Lubos Blazek,1000,CZK,příjem
+2026-22-03,Příspěvek @onga,100,CZK,příjem
+2026-22-03,Příspěvek D.Kolaja,111,CZK,příjem
+2026-22-03,Příspěvek Schmaker,200,CZK,příjem
+2026-22-03,Platba server Contabo,-624.24,CZK,výdaj
+2026-22-03,Příspěvek oscloud.cz-daveys,500,CZK,příjem
+2026-22-03,Příspěvek  Jan V,100,CZK,příjem
 
 
 
