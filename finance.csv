@@ -133,6 +133,8 @@ Datum,Popis,Částka,Měna,Typ
 2026-15-05,Příspěvek Sazy,100,CZK,příjem
 2026-15-05,Příspěvek M.Vrhel,200,CZK,příjem
 2026-15-05,Příspěvek Pan Wu,100,CZK,příjem
+2026-15-05,Platba Hetzner,-4601,CZK,výdaj
+2026-15-05,Platba překladač Deepl,-400,CZK,výdaj
 
 
 
