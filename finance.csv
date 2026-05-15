@@ -1,144 +1,137 @@
 Datum,Popis,Částka,Měna,Typ
 2026-01-01,Převod z roku 2025,25925.81,CZK,příjem
-2026-02-01,Příspěvek ZBNW,150,CZK,příjem
-2026-02-01,Příspěvek Tomáš O,250,CZK,příjem
-2026-02-01,Příspěvek @fabia_man@mamutovo.cz,200,CZK,příjem 
-2026-02-01,Příspěvek Juraj,50,CZK,příjem
-2026-12-01,Příspěvek Michal Špondr,50,CZK,příjem
-2026-12-01,Příspěvek 	@Razemix@mamutovo.cz,100,CZK,příjem
-2026-12-01,Příspěvek František Řezáč,300,CZK,příjem
-2026-12-01,Příspěvek Infoek,700,CZK,příjem
-2026-12-01,Příspěvek @tritol128,512,CZK,příjem
-2026-12-01,Příspěvek @rholas,75,CZK,příjem
-2026-12-01,Příspěvek Koubikovo,200,CZK,příjem
-2026-12-01,Platba Deepl překladač,-340,CZK,výdaj
-2026-20-11,Příspěvek Sazy,100,CZK,příjem 
-2026-20-01,Příspěvek Pan Wu,100,CZK,příjem
-2026-20-01,Příspěvek Miroslav Vrhel,150,CZK,příjem
-2026-20-01,Příspěvek Jam Pleva,250,CZK, příjem 
-2026-20-01,Příspěvek vyvoláno.cz,200,CZK,příjem
-2026-20-01,Platba Hetzner server OScloud,-3860,CZK,výdaj
-2026-20-01,Příspěvek Luboš Blažek,1000,CZK,příjem
-2026-20-06,Příspěvek @onga,100,CZK,příjem
-2026-20-01,Příspěvek D.Kolaja,111,CZK,příjem
-2026-20-01,Příspěvek Schmaker,200,CZK,příjem
-2026-20-01,Platba server Contabo Mxchat,-618,CZK,výdaj
-2026-24-01,Platba server Mamutovo,-800,CZK,výdaj
-2026-24-01,Příspěvek Patrik,200,CZK,příjem
-2026-30-01,Příspěvek dnesukrajině,500,CZK,příjem
-2026-30-01,Příspěvek David S,300,CZK,příjem
-2026-30-01,Příspěvek Sešívaný Oscloud,50,CZK,příjem
-2026-30-01,Podpora OScloud Martin Libera,50,CZK,příjem
-2026-07-02,Podpora Oscloud @tritol128,512,CZK,příjem
-2026-07-02,Příspěvek ZBNW,150,CZK,příjem
-2026-07-02,Příspěvek Michal Špondr,50,CZK,příjem
-2026-07-02,Příspěvek Juraj,50,CZK,příjem
-2026-07-02,Příspěvek Bc.Petr Suchý,300,CZK,příjem
-2026-07-02,Příspěvek František Řezáč,300,CZK,příjem
-2026-07-02,Příspěvek @fabia_man@mamutovo.cz,200,CZK,příjem 
-2026-07-02,Příspěvek GuloGulo,333,CZK,příjem
-2026-13-02,Platba Deepl překladač,-350,CZK,výdaj
-2026-13-02,Platba doména Archoslinux,-315,CZK,výdaj
-2026-13-02,Příspěvek Pan Wu,100,CZK,příjem
-2026-13-02,Příspěvek Miroslav Vrhel,150,CZK,příjem
-2026-13-02,Příspěvek Jam Pleva,250,CZK, příjem
-2026-13-02,Podpora Oscloud Infoek,700,CZK,příjem
-2026-13-02,Příspěvek Patrik,200,CZK,příjem
-2026-13-02,Příspěvek Razemix,100,CZK,příjem
-2026-13-02,Příspěvek Kubíkovo,200,CZK,příjem
-2026-13-02,Příspěvek Sazy,100,CZK,příjem
-2026-13-02,Příspěvek rholas,75,CZK,příjem
-2026-14-02,Platba Hetzner,-3400,CZK,výdaj
-2026-22-02,Příspěvek @onga,100,CZK,příjem
-2026-22-02,Příspěvek Vyvoláno.cz,200,CZK,příjem
-2026-22-02,Příspěvek D.Kolaja,111,CZK,příjem
-2026-22-02,Příspěvek Schmaker,200,CZK,příjem
-2026-22-02,Příspěvek Lubos Blazek,1000,CZK,příjem
-2026-22-02,Platba server Mamutovo,-800,CZK,výdaj
-2026-22-02,Platba server Mxchat,-618.67,CZK,výdaj
-2026-28-02,Příspěvek dnesukrajině,500,CZK,příjem
-2026-28-02,Příspěvek Matoušková Božena,5220,CZK,příjem
-2026-28-02,platba domény vhsky.cz,-315,CZK,výdaj
-2026-28-02,Příspěvek Sešvaný Oscloud,50,CZK,příjem
-2026-13-03,Příspěvek Daniel Šnor,150,CZK,příjem
-2026-13-03,Příspěvek @tritol128,512,CZK,příjem
-2026-13-03,Příspěvek Martin Libera,50,CZK,příjem
-2026-13-03,Juraj Rusnačko podpora Oscloud,50,CZK,příjem
-2026-13-03,Příspěvek mamutovo fabia_man,200,CZK,příjem
-2026-13-03,Příspěvek Michal Špond,50,CZK,příjem
-2026-13-03,Příspěvek František Řezáč,300,CZK,příjem
-2026-13-03,Příspěvek Razemix,100,CZK,příjem
-2026-13-03,Příspěvek rholas,100,CZK,příjem
-2026-13-03,Příspěvek Infoek,1000,CZK,příjem
-2026-13-03,Příspěvek Jakub Jochec,200,CZK,příjem
-2026-13-03,Příspěvek Jan Pleva,250,CZK,příjem
-2026-13-03,Příspěvek Miroslav Vrhel,150,CZK,příjem
-2026-13-03,Příspěvek Pan Wu,100,CZK,příjem
-2026-13-03,Příspěvek Sazy,100,CZK,příjem
-2026-13-03,Platba Deepl,-320,CZK,výdaj
-2026-22-03,Platba server Osclud Hetzner,-4068,CZK,výdaj
-2026-22-03,Příspěvek Vyvoláno.cz,200,CZK,příjem
-2026-22-03,Příspěvek Lubos Blazek,1000,CZK,příjem
-2026-22-03,Příspěvek @onga,100,CZK,příjem
-2026-22-03,Příspěvek D.Kolaja,111,CZK,příjem
-2026-22-03,Příspěvek Schmaker,200,CZK,příjem
-2026-22-03,Platba server Contabo,-624.24,CZK,výdaj
-2026-22-03,Příspěvek oscloud.cz-daveys,500,CZK,příjem
-2026-22-03,Příspěvek  Jan V,100,CZK,příjem
-2026-06-04,Příspěvek dnesukrajině,500,CZK,příjem
-2026-06-04,Příspěvek Sešívaný,50,CZK,příjem
-2026-06-04,Platba server mamutovo,-800,CZK,výdaj
-2026-06-04,Příspěvek Daniel Šnor,150,CZK,příjem
-2026-06-04,Příspěvek Juraj,50,CZK,příjem
-2026-06-04,Příspěvek fabia_man,200,CZK,příjem
-2026-06-04,Příspěvek Martin libera.sit,50,CZK,příjem
-2026-12-04,Platba Domény,-945,CZK,výdaj
-2026-112-04,Příspěvek @tritol128,512,CZK,příjem
-2026-12-04,Příspěvek Michal Špondr,50,CZK,příjem
-2026-12-04,Příspěvek František Řezáč,300,CZK,příjem
-2026-12-04,Příspěvek Infoek,1100,CZK,příjem
-2026-12-04,Příspěvek rholas,100,CZK,příjem
-2026-12-04,Příspěvek Razemix,100,CZK,příjem
-2026-12-04,Příspěvek Kubíkovo,200,CZK,příjem
-2026-12-04,Příspěvek Sazy,100,CZK,příjem
-2026-12-04,Příspěvek Pan Wu,100,CZK,příjem
-2026-12-04,Platba Deepl,-403,CZK,výdaj
-2026-01-05,Příspěvek Miroslav Vrhel,150,CZK,příjem 
-2026-01-05,Příspěvek Jan Pleva,250,CZK,příjem
-2026-01-05,Platba Hetzner,-4165,CZK,výdaj
-2026-01-05,Příspěvek Schmaker,200,CZK,příjem
-2026-01-05,Příspěvek Luboš Blažek,1000,CZK,příjem
-2026-01-05,Příspěvek D. Kolaja,111,CZK,příjem
-2026-01-05,Příspěvek Mastodon @onga6,100,CZK,příjem
-2026-01-05,Platba server mamutovo,-850,CZK,výdaj
-2026-01-05,Příspěvek 	pixelfed.cz/dnesnaukrajine,500,CZK,příjem
-2026-01-05,Příspěvek Sešívaný,50,CZK,příjem
-2026-01-05,Platba server Contabo,-723.46,CZK,výdaj
-2026-01-05,Podpora Oscloud Martin libera.sit,50,CZK,příjem
-2026-15-05,Příspěvek @xcabal05,100,CZK,příjem
-2026-15-05,Příspěvek Daniel Šnor,150,CZK,příjem
-2026-15-05,Příspěvek Michal Špondr,50,CZK,příjem
-2026-15-05,PŘÍSPĚVEK OSCLOUD @OTTOVONWENKOFF,150,CZK,příjem
-2026-15-05,Příspěvek František Řezáč,300,CZK,příjem
-2026-15-05,Příspěvek Zenobit,485,CZK,příjem
-2026-15-05,Příspěvek Mamutovo @fabia_man,200,CZK,příjem
-2026-15-05,Juraj Rusnačko podpora Oscloud,50,CZK,příjem
-2026-15-05,Příspěvek @tritol128,512,CZK,příjem
-2026-15-05,Příspěvek @dreedo@mamutovo.cz,55,CZK,příjem
-2026-15-05,Příspěvek @Razemix@mamutovo.cz,100,CZK,příjem
-2026-15-05,Příspěvek Oscloud M.Hubáček,100,CZK,příjem
-2026-15-05,Příspěvek Holas Oscloud,101.01,CZK,příjem
-2026-15-05,Příspěvek Infoek,1200,CZK,příjem
-2026-15-05,Příspěvek Koubikovo,300,CZK,příjem
-2026-15-05,Příspěvek Sazy,100,CZK,příjem
-2026-15-05,Příspěvek M.Vrhel,200,CZK,příjem
-2026-15-05,Příspěvek Pan Wu,100,CZK,příjem
-2026-15-05,Platba Hetzner,-4601,CZK,výdaj
-2026-15-05,Platba překladač Deepl,-400,CZK,výdaj
-
-
-
-
-
-
-
+2026-01-02,Příspěvek ZBNW,150,CZK,příjem
+2026-01-02,Příspěvek Tomáš O,250,CZK,příjem
+2026-01-02,Příspěvek @fabia_man@mamutovo.cz,200,CZK,příjem
+2026-01-02,Příspěvek Juraj,50,CZK,příjem
+2026-01-12,Příspěvek Michal Špondr,50,CZK,příjem
+2026-01-12,Příspěvek @Razemix@mamutovo.cz,100,CZK,příjem
+2026-01-12,Příspěvek František Řezáč,300,CZK,příjem
+2026-01-12,Příspěvek Infoek,700,CZK,příjem
+2026-01-12,Příspěvek @tritol128,512,CZK,příjem
+2026-01-12,Příspěvek @rholas,75,CZK,příjem
+2026-01-12,Příspěvek Koubikovo,200,CZK,příjem
+2026-01-12,Platba Deepl překladač,-340,CZK,výdaj
+2026-01-20,Příspěvek Sazy,100,CZK,příjem
+2026-01-20,Příspěvek Pan Wu,100,CZK,příjem
+2026-01-20,Příspěvek Miroslav Vrhel,150,CZK,příjem
+2026-01-20,Příspěvek Jam Pleva,250,CZK,příjem
+2026-01-20,Příspěvek vyvoláno.cz,200,CZK,příjem
+2026-01-20,Platba Hetzner server OScloud,-3860,CZK,výdaj
+2026-01-20,Příspěvek Luboš Blažek,1000,CZK,příjem
+2026-01-20,Příspěvek @onga,100,CZK,příjem
+2026-01-20,Příspěvek D.Kolaja,111,CZK,příjem
+2026-01-20,Příspěvek Schmaker,200,CZK,příjem
+2026-01-20,Platba server Contabo Mxchat,-618,CZK,výdaj
+2026-01-24,Platba server Mamutovo,-800,CZK,výdaj
+2026-01-24,Příspěvek Patrik,200,CZK,příjem
+2026-01-30,Příspěvek dnesukrajině,500,CZK,příjem
+2026-01-30,Příspěvek David S,300,CZK,příjem
+2026-01-30,Příspěvek Sešívaný Oscloud,50,CZK,příjem
+2026-01-30,Podpora OScloud Martin Libera,50,CZK,příjem
+2026-02-07,Podpora Oscloud @tritol128,512,CZK,příjem
+2026-02-07,Příspěvek ZBNW,150,CZK,příjem
+2026-02-07,Příspěvek Michal Špondr,50,CZK,příjem
+2026-02-07,Příspěvek Juraj,50,CZK,příjem
+2026-02-07,Příspěvek Bc.Petr Suchý,300,CZK,příjem
+2026-02-07,Příspěvek František Řezáč,300,CZK,příjem
+2026-02-07,Příspěvek @fabia_man@mamutovo.cz,200,CZK,příjem
+2026-02-07,Příspěvek GuloGulo,333,CZK,příjem
+2026-02-13,Platba Deepl překladač,-350,CZK,výdaj
+2026-02-13,Platba doména Archoslinux,-315,CZK,výdaj
+2026-02-13,Příspěvek Pan Wu,100,CZK,příjem
+2026-02-13,Příspěvek Miroslav Vrhel,150,CZK,příjem
+2026-02-13,Příspěvek Jam Pleva,250,CZK,příjem
+2026-02-13,Podpora Oscloud Infoek,700,CZK,příjem
+2026-02-13,Příspěvek Patrik,200,CZK,příjem
+2026-02-13,Příspěvek Razemix,100,CZK,příjem
+2026-02-13,Příspěvek Kubíkovo,200,CZK,příjem
+2026-02-13,Příspěvek Sazy,100,CZK,příjem
+2026-02-13,Příspěvek rholas,75,CZK,příjem
+2026-02-14,Platba Hetzner,-3400,CZK,výdaj
+2026-02-22,Příspěvek @onga,100,CZK,příjem
+2026-02-22,Příspěvek Vyvoláno.cz,200,CZK,příjem
+2026-02-22,Příspěvek D.Kolaja,111,CZK,příjem
+2026-02-22,Příspěvek Schmaker,200,CZK,příjem
+2026-02-22,Příspěvek Lubos Blazek,1000,CZK,příjem
+2026-02-22,Platba server Mamutovo,-800,CZK,výdaj
+2026-02-22,Platba server Mxchat,-618.67,CZK,výdaj
+2026-02-28,Příspěvek dnesukrajině,500,CZK,příjem
+2026-02-28,Příspěvek Matoušková Božena,5220,CZK,příjem
+2026-02-28,platba domény vhsky.cz,-315,CZK,výdaj
+2026-02-28,Příspěvek Sešvaný Oscloud,50,CZK,příjem
+2026-03-13,Příspěvek Daniel Šnor,150,CZK,příjem
+2026-03-13,Příspěvek @tritol128,512,CZK,příjem
+2026-03-13,Příspěvek Martin Libera,50,CZK,příjem
+2026-03-13,Juraj Rusnačko podpora Oscloud,50,CZK,příjem
+2026-03-13,Příspěvek mamutovo fabia_man,200,CZK,příjem
+2026-03-13,Příspěvek Michal Špond,50,CZK,příjem
+2026-03-13,Příspěvek František Řezáč,300,CZK,příjem
+2026-03-13,Příspěvek Razemix,100,CZK,příjem
+2026-03-13,Příspěvek rholas,100,CZK,příjem
+2026-03-13,Příspěvek Infoek,1000,CZK,příjem
+2026-03-13,Příspěvek Jakub Jochec,200,CZK,příjem
+2026-03-13,Příspěvek Jan Pleva,250,CZK,příjem
+2026-03-13,Příspěvek Miroslav Vrhel,150,CZK,příjem
+2026-03-13,Příspěvek Pan Wu,100,CZK,příjem
+2026-03-13,Příspěvek Sazy,100,CZK,příjem
+2026-03-13,Platba Deepl,-320,CZK,výdaj
+2026-03-22,Platba server Osclud Hetzner,-4068,CZK,výdaj
+2026-03-22,Příspěvek Vyvoláno.cz,200,CZK,příjem
+2026-03-22,Příspěvek Lubos Blazek,1000,CZK,příjem
+2026-03-22,Příspěvek @onga,100,CZK,příjem
+2026-03-22,Příspěvek D.Kolaja,111,CZK,příjem
+2026-03-22,Příspěvek Schmaker,200,CZK,příjem
+2026-03-22,Platba server Contabo,-624.24,CZK,výdaj
+2026-03-22,Příspěvek oscloud.cz-daveys,500,CZK,příjem
+2026-03-22,Příspěvek  Jan V,100,CZK,příjem
+2026-04-06,Příspěvek dnesukrajině,500,CZK,příjem
+2026-04-06,Příspěvek Sešívaný,50,CZK,příjem
+2026-04-06,Platba server mamutovo,-800,CZK,výdaj
+2026-04-06,Příspěvek Daniel Šnor,150,CZK,příjem
+2026-04-06,Příspěvek Juraj,50,CZK,příjem
+2026-04-06,Příspěvek fabia_man,200,CZK,příjem
+2026-04-06,Příspěvek Martin libera.sit,50,CZK,příjem
+2026-04-12,Platba Domény,-945,CZK,výdaj
+2026-04-12,Příspěvek @tritol128,512,CZK,příjem
+2026-04-12,Příspěvek Michal Špondr,50,CZK,příjem
+2026-04-12,Příspěvek František Řezáč,300,CZK,příjem
+2026-04-12,Příspěvek Infoek,1100,CZK,příjem
+2026-04-12,Příspěvek rholas,100,CZK,příjem
+2026-04-12,Příspěvek Razemix,100,CZK,příjem
+2026-04-12,Příspěvek Kubíkovo,200,CZK,příjem
+2026-04-12,Příspěvek Sazy,100,CZK,příjem
+2026-04-12,Příspěvek Pan Wu,100,CZK,příjem
+2026-04-12,Platba Deepl,-403,CZK,výdaj
+2026-05-01,Příspěvek Miroslav Vrhel,150,CZK,příjem
+2026-05-01,Příspěvek Jan Pleva,250,CZK,příjem
+2026-05-01,Platba Hetzner,-4165,CZK,výdaj
+2026-05-01,Příspěvek Schmaker,200,CZK,příjem
+2026-05-01,Příspěvek Luboš Blažek,1000,CZK,příjem
+2026-05-01,Příspěvek D. Kolaja,111,CZK,příjem
+2026-05-01,Příspěvek Mastodon @onga6,100,CZK,příjem
+2026-05-01,Platba server mamutovo,-850,CZK,výdaj
+2026-05-01,Příspěvek pixelfed.cz/dnesnaukrajine,500,CZK,příjem
+2026-05-01,Příspěvek Sešívaný,50,CZK,příjem
+2026-05-01,Platba server Contabo,-723.46,CZK,výdaj
+2026-05-01,Podpora Oscloud Martin libera.sit,50,CZK,příjem
+2026-05-15,Příspěvek @xcabal05,100,CZK,příjem
+2026-05-15,Příspěvek Daniel Šnor,150,CZK,příjem
+2026-05-15,Příspěvek Michal Špondr,50,CZK,příjem
+2026-05-15,PŘÍSPĚVEK OSCLOUD @OTTOVONWENKOFF,150,CZK,příjem
+2026-05-15,Příspěvek František Řezáč,300,CZK,příjem
+2026-05-15,Příspěvek Zenobit,485,CZK,příjem
+2026-05-15,Příspěvek Mamutovo @fabia_man,200,CZK,příjem
+2026-05-15,Juraj Rusnačko podpora Oscloud,50,CZK,příjem
+2026-05-15,Příspěvek @tritol128,512,CZK,příjem
+2026-05-15,Příspěvek @dreedo@mamutovo.cz,55,CZK,příjem
+2026-05-15,Příspěvek @Razemix@mamutovo.cz,100,CZK,příjem
+2026-05-15,Příspěvek Oscloud M.Hubáček,100,CZK,příjem
+2026-05-15,Příspěvek Holas Oscloud,101.01,CZK,příjem
+2026-05-15,Příspěvek Infoek,1200,CZK,příjem
+2026-05-15,Příspěvek Koubikovo,300,CZK,příjem
+2026-05-15,Příspěvek Sazy,100,CZK,příjem
+2026-05-15,Příspěvek M.Vrhel,200,CZK,příjem
+2026-05-15,Příspěvek Pan Wu,100,CZK,příjem
+2026-05-15,Platba Hetzner,-4601,CZK,výdaj
+2026-05-15,Platba překladač Deepl,-400,CZK,výdaj
