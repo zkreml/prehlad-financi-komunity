@@ -80,7 +80,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-03-22,Příspěvek Vyvoláno.cz,200,CZK,příjem
 2026-03-22,Příspěvek Lubos Blazek,1000,CZK,příjem
 2026-03-22,Příspěvek @onga,100,CZK,příjem
-2026-03-22,Příspěvek D.Kolaja,111,CZK,příjem
+2026-03-22,Příspěvek D.Kolaja,111,CZK,př2i2íjem
 2026-03-22,Příspěvek Schmaker,200,CZK,příjem
 2026-03-22,Platba server Contabo,-624.24,CZK,výdaj
 2026-03-22,Příspěvek oscloud.cz-daveys,500,CZK,příjem
@@ -135,3 +135,4 @@ Datum,Popis,Částka,Měna,Typ
 2026-05-15,Příspěvek Pan Wu,100,CZK,příjem
 2026-05-15,Platba Hetzner,-4601,CZK,výdaj
 2026-05-15,Platba překladač Deepl,-400,CZK,výdaj
+2026-05-15,Příspěvek Jan Vlnas,100,CZK,příjem
