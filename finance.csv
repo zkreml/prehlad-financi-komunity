@@ -11,6 +11,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-01-12,Koubikovo,200.0,CZK,příjem
 2026-01-12,Příspěvek @rholas,75.0,CZK,příjem
 2026-01-12,Příspěvek @tritol128,512.0,CZK,příjem
+2026-01-12,Příspěvek Juraj Rusnačko,50.0,CZK,příjem
 2026-01-13,Příspěvek pan Wu,100.0,CZK,příjem
 2026-01-13,PŘÍSPĚVEK SAZY,100.0,CZK,příjem
 2026-01-14,PLATBA,150.0,CZK,příjem
@@ -251,4 +252,32 @@ Datum,Popis,Částka,Měna,Typ
 2026-08-17,Příspěvek Schmaker,400.0,CZK,příjem
 2026-08-17,Příspěvek Luboš Blažek,1000.0,CZK,příjem
 2026-08-17,Platba Hetzner,-4870.0,CZK,výdaj
-2026-08-17,Platba server Netcup makni.cz,-300.0,CZK,výdaj
+2026-08-18,Platba překladač Deepl,-300.0,CZK,výdaj
+2026-08-19,Příspěvek Janda Cyril,100.0,CZK,příjem
+2026-08-20,Dar Oscloud David Strnava,300.0,CZK,příjem
+2026-08-24,Příspěvek dnesukrajině,500.0,CZK,příjem
+2026-08-24,Platba server Contabo Mxchat,-720.19,CZK,výdaj
+2026-08-25,Platba server Mamutovo,-850.0,CZK,výdaj
+2026-08-26,Příspěvek Sešívaný,50.0,CZK,příjem
+2026-08-26,Platba založení živnosti Oscloud spolek,-1000.0,CZK,výdaj
+2026-08-27,Platba kancelářské potřeby IDrive E2,-102.4,CZK,výdaj
+2026-08-31,Příspěvek Zettl Josef,200.0,CZK,příjem
+2026-08-31,Příspěvek Na LinuxDays Zechovský Jan,500.0,CZK,příjem
+2026-08-31,Příspěvek Na pivko Juraj Rusnačko,500.0,CZK,příjem
+2026-08-31,Příspěvek LinuxDays Otakar Nieder,1500.0,CZK,příjem
+2026-08-31,Příspěvek Adam Havelka,100.0,CZK,příjem
+2026-08-31,Příspěvek Kostera Martin,200.0,CZK,příjem
+2026-09-01,Příspěvek Vondráček Ladislav,500.0,CZK,příjem
+2026-09-01,Juraj Rusnačko podpora Oscloud,50.0,CZK,příjem
+2026-09-01,Příspěvek Mamutovo @fabia_man,250.0,CZK,příjem
+2026-09-01,Podpora LinuxDays Tomáš Odehnal,100.0,CZK,příjem
+2026-09-01,Příspěvek ZBNW Daniel Šnor,150.0,CZK,příjem
+2026-09-02,Dar Sýkora Ondřej,300.0,CZK,příjem
+2026-09-02,Příspěvek Korbel Jan,200.0,CZK,příjem
+2026-09-03,Na LinuxDays Tadeusz Sikora,100.0,CZK,příjem
+2026-09-04,Podpora Oscloud Martin libera.sit,250.0,CZK,příjem
+2026-09-04,Příspěvek @tritol128,512.0,CZK,příjem
+2026-09-04,Příspěvek Zetl Josef,50.0,CZK,příjem
+2026-09-04,Juraj Rusnačko podpora Oscloud,50.0,CZK,příjem
+2026-09-04,Příspěvek Mamutovo @fabia_man,250.0,CZK,příjem
+2026-09-04,Podpora mxchat.cz - micaai,50.0,CZK,příjem
