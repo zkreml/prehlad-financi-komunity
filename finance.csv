@@ -317,3 +317,12 @@ Datum,Popis,Částka,Měna,Typ
 2026-09-21,Dar Oscloud Vlnas,100.0,CZK,příjem
 2026-09-21,Příspěvek D. Kolaja,111.0,CZK,příjem
 2026-09-21,Dar Oscloud Jan Zechovský,200.0,CZK,příjem
+2026-09-21,Test OSCloud Kostera Martin,100.0,CZK,příjem
+2026-09-21,Platba server Mamutovo (zahraniční úhrada),-1083.23,CZK,výdaj
+2026-09-22,Platba server Mamutovo - omylem 2x (kryje příští měsíční platbu),-1060.98,CZK,výdaj
+2026-09-22,Platba VPS Netcup,-405.34,CZK,výdaj
+2026-09-24,Příspěvek dnesukrajině,500.0,CZK,příjem
+2026-09-25,Příspěvek Oscloud Sešívaný,70.0,CZK,příjem
+2026-09-25,Platba server Contabo,-724.02,CZK,výdaj
+2026-09-27,Platba S3 úložiště Mamutovo IDrive E2,-136.16,CZK,výdaj
+2026-09-27,Příspěvek Oscloud Sešívaný,50.0,CZK,příjem
