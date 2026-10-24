@@ -213,7 +213,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-07-24,Příspěvek dnesukrajině,500.0,CZK,příjem
 2026-07-27,Platba roční předplatné Trilium Next,600.0,CZK,příjem
 2026-07-27,Platba server Contabo Mxchat,-721.0,CZK,výdaj
-2026-07-28,Podpora Oscloud Martin libera.site,50.0,CZK,příjem
+2026-07-28,Podpora Oscloud Martin libera.sit,50.0,CZK,příjem
 2026-07-28,Příspěvek Sešívaný,50.0,CZK,příjem
 2026-07-28,Dar Oscloud Jan Zechovský,200.0,CZK,příjem
 2026-07-28,Příspěvek Mastodon @onga6,100.0,CZK,příjem
@@ -232,7 +232,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-08-10,Juraj Rusnačko podpora Oscloud,50.0,CZK,příjem
 2026-08-10,Příspěvek Mamutovo @fabia_man,250.0,CZK,příjem
 2026-08-10,Příspěvek @tritol128,512.0,CZK,příjem
-2026-08-10,Podpora Oscloud Martin libera.site,250.0,CZK,příjem
+2026-08-10,Podpora Oscloud Martin libera.sit,250.0,CZK,příjem
 2026-08-10,Dar Oscloud J. Úlehla,1000.0,CZK,příjem
 2026-08-10,Platba server Mamutovo,-845.0,CZK,výdaj
 2026-08-11,Příspěvek Infoek,1100.0,CZK,příjem
@@ -266,7 +266,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-08-31,Příspěvek Na pivko Juraj Rusnačko,500.0,CZK,příjem
 2026-08-31,Příspěvek LinuxDays Otakar Nieder,1500.0,CZK,příjem
 2026-08-31,Příspěvek Adam Havelka,100.0,CZK,příjem
-2026-08-31,Příspěvek Kostera Martin,200.0,CZK,příjem
+2026-08-31,Podpora Oscloud Martin libera.sit,200.0,CZK,příjem
 2026-09-01,Příspěvek Vondráček Ladislav,500.0,CZK,příjem
 2026-09-01,Juraj Rusnačko podpora Oscloud,50.0,CZK,příjem
 2026-09-01,Příspěvek Mamutovo @fabia_man,250.0,CZK,příjem
@@ -317,7 +317,7 @@ Datum,Popis,Částka,Měna,Typ
 2026-09-21,Dar Oscloud Vlnas,100.0,CZK,příjem
 2026-09-21,Příspěvek D. Kolaja,111.0,CZK,příjem
 2026-09-21,Dar Oscloud Jan Zechovský,200.0,CZK,příjem
-2026-09-21,Test OSCloud Kostera Martin,100.0,CZK,příjem
+2026-09-21,Podpora Oscloud Martin libera.sit,100.0,CZK,příjem
 2026-09-21,Platba server Mamutovo (zahraniční úhrada),-1083.23,CZK,výdaj
 2026-09-22,Platba server Mamutovo - omylem 2x (kryje příští měsíční platbu),-1060.98,CZK,výdaj
 2026-09-22,Platba VPS Netcup,-405.34,CZK,výdaj
